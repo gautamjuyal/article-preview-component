@@ -186,5 +186,8 @@
             left: 0 !important;
             height: 22%;
             box-shadow: none;
+            &::after {
+                display: none;
+            }
         }
     }

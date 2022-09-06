@@ -202,4 +202,7 @@
     height: 22%;
     box-shadow: none;
   }
+  .share-menu::after {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
