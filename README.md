@@ -41,4 +41,4 @@ Used stackoverflow and w3schools documentation throughout the development.
 - [SCSS course](https://www.youtube.com/watch?v=_a5j7KoflTs&t=5455s&ab_channel=freeCodeCamp.org) - Got familiar with SCSS with this course. Really amazing course.
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/gautamjuyal)
+- Frontend Mentor - [@gautamjuyal](https://www.frontendmentor.io/profile/gautamjuyal)
