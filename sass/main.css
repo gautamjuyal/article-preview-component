@@ -19,6 +19,7 @@
   display: flex;
   width: 50rem;
   border-radius: 10px;
+  box-shadow: 1px 2px 20px hsl(212deg, 23%, 69%);
 }
 
 .img-section {
@@ -117,17 +118,32 @@
   border-radius: 10px;
   right: 0;
   border-radius: 10px;
+  box-shadow: 0 5px 10px hsl(214deg, 17%, 51%);
 }
 .share-menu span {
   color: hsl(212deg, 23%, 69%);
 }
-.share-menuimg {
+.share-menu img {
   width: 100%;
 }
 .share-menu.visible {
   display: flex;
   -webkit-animation: scale-anim 0.5s ease;
           animation: scale-anim 0.5s ease;
+}
+.share-menu::after {
+  -webkit-animation: none;
+          animation: none;
+  content: "";
+  width: 23px;
+  height: 12px;
+  position: absolute;
+  display: flex;
+  background-color: hsl(217deg, 19%, 35%);
+  bottom: -11px;
+  left: 48%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%, 0 0);
+          clip-path: polygon(0 0, 100% 0, 50% 100%, 0 0);
 }
 
 @-webkit-keyframes scale-anim {
@@ -170,13 +186,20 @@
   .text-section {
     align-items: center;
     border-radius: 0 0 10px 10px;
+    padding-bottom: 1.4rem;
   }
   .profile-tab {
     width: 100%;
   }
+  .share {
+    z-index: 10;
+  }
   .share-menu {
-    width: inherit;
-    bottom: 0;
-    left: 0;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    bottom: 0 !important;
+    left: 0 !important;
+    height: 22%;
+    box-shadow: none;
   }
 }/*# sourceMappingURL=main.css.map */

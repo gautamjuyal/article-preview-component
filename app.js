@@ -8,7 +8,7 @@ shareBtn.addEventListener('click', () => {
     const y = component.clientHeight - shareBtn.offsetTop;
     const x = component.clientWidth - shareBtn.offsetLeft;
 
-    shareMenu.style.bottom = y + 'px';
+    shareMenu.style.bottom = y + 20 + 'px';
     shareMenu.style.right = `-${x}px`;
 })
 
